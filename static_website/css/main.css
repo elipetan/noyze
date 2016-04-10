@@ -1,3 +1,16 @@
 .container-fluid {
   max-width: 800px;
 }
+
+iframe {
+  border: 1px solid #aaa;
+}
+
+.media {
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0 25px;
+}
+
+.media:last-child {
+  border: none;
+}

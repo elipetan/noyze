@@ -7,21 +7,70 @@
     <!-- <link href="css/vendor/bootstrap-theme.min.css" rel="stylesheet"> -->
   </head>
   <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Noyze</a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Search</a></li>
+          <li><a href="place.html">Place</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <div class="container-fluid">
       <h1>Hello, world!</h1>
 
-      <div class="media">
-        <div class="media-left">
-          <a href="place.html">
-            <img class="media-object" src="images/thumbnail.jpg" width="200">
-          </a>
+      <div class="row">
+        <div class="col-md-8">
+          <div class="media">
+            <div class="media-left">
+              <a href="place.html">
+                <img class="media-object" src="images/thumbnail.jpg" width="200">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Yosemite</h4>
+              <p>
+                This place is tight
+              </p>
+              <a href="place.html" class="btn btn-default pull-right">View</a>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="place.html">
+                <img class="media-object" src="images/thumbnail.jpg" width="200">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Yosemite</h4>
+              <p>
+                This place is tight
+              </p>
+              <a href="place.html" class="btn btn-default pull-right">View</a>
+            </div>
+          </div>
+          <div class="media">
+            <div class="media-left">
+              <a href="place.html">
+                <img class="media-object" src="images/thumbnail.jpg" width="200">
+              </a>
+            </div>
+            <div class="media-body">
+              <h4 class="media-heading">Yosemite</h4>
+              <p>
+                This place is tight
+              </p>
+              <a href="place.html" class="btn btn-default pull-right">View</a>
+            </div>
+          </div>
         </div>
-        <div class="media-body">
-          <h4 class="media-heading">Yosemite</h4>
-          <p>
-            This place is tight
-          </p>
-          <a href="place.html" class="btn btn-default">View</a>
+        <div class="col-md-4">
+          <iframe height="400" src="https://www.google.com/maps/embed/v1/place?q=Sacramento,California&zoom=17&key=AIzaSyASz9ByEfxPSXpfye_X8Pfuf5QNO0wNTpE">
+          </iframe>
         </div>
       </div>
     </div>
